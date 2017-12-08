@@ -125,9 +125,9 @@ INSERT INTO "principal-local-authority" VALUES (23,23,'2017-08-01T09:15:16Z','RC
 DROP TABLE IF EXISTS "buyers";
 
 CREATE TABLE "buyers" (
-  "Buyer_name" varchar(255) DEFAULT NULL,
-  "Buyer Corporate Identifier" varchar(255) DEFAULT NULL,
-  "Registration status" varchar(255) DEFAULT NULL
+  "buyer_name" varchar(255) DEFAULT NULL,
+  "buyer_corporate_identifier" varchar(255) DEFAULT NULL,
+  "registration_status" varchar(255) DEFAULT NULL
 );
 
 INSERT INTO "buyers"
